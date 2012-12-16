@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: unicorn_development
+  pool: 5
+  username: vladiim
+  password:
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  database: unicorn_test
+  pool: 5
+  username: vladiim
+  password:
+  host: localhost
